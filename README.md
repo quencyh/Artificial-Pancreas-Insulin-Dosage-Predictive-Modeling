@@ -8,9 +8,6 @@ The project utilizes two main datasets:
 - **InsulinData.csv**: This dataset contains manually entered meal times and carbohydrate intake, with about 40,000 rows documenting the time and amount of carbohydrates consumed.
 - **CGMData.csv**: Comprising approximately 55,000 rows, this dataset features continuous glucose monitoring data, recording glucose levels every 5 minutes to provide a detailed temporal profile of glucose variations throughout the day.
 
-## Purpose of the Project
-The project's purpose is to develop a predictive model that can accurately determine the optimal times for insulin administration, based on real-time glucose data. By doing so, it aims to minimize the risk of hypo- and hyperglycemia, thus offering a more automated and effective approach to diabetes management.
-
 ## Methods and Steps
 The project follows these key steps:
 - **Data Preprocessing**: Filtering relevant data from both datasets, including times and carbohydrate values, and converting timestamps into a usable format for analysis.
